@@ -7,6 +7,7 @@ public class GenerateRandomPopulation {
         List<List<Integer>> population = new ArrayList<>();
         List<Integer> populationList = new ArrayList<>(xAxis * yAxis);
 
+
         for (int i = 0; i < xAxis * yAxis; i++) {
             populationList.add(i);
         }
